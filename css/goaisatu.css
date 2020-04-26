@@ -1,0 +1,9 @@
+@charset "UTF-8";
+figure.right{
+    float: right;
+    margin-left: 15px;
+}
+figure.left{
+    float: left;
+    margin-right: 15px;        
+}

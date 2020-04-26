@@ -1,0 +1,126 @@
+@charset"UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "メイリオ", "MSP ゴシック”,sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: antiquewhite;
+}
+/*===== container =====*/
+#container {
+    width: 960px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+/*=====header=====*/
+header {
+    padding: 30px 0 10px;
+   background-image: url(../img/05.png);
+    background-repeat: no-repeat;
+    background-position: 700px 20px;          
+}
+header h1 {
+    color: #ae0001;
+    font-size: 30px;
+}
+/*===== main =====*/
+main {
+    float: right;
+    width: 690px;
+    margin: 0 0 60px;
+}
+main h1{
+    color: #ae0001;
+    font-size: 20px;
+    padding: 5px 0 5px 15px;
+    border-left: 9px solid #ae0001;
+    border-bottom: 1px dashed #ae0001;
+    margin: 0 0 20px;        
+}
+main h2{
+    margin: 25px 0 20px;
+    padding: 5px 0 5px 15px;
+    border-left: 9px solid #eb696b;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+main h3{
+    margin: 25px 0 20px;
+    padding: 0 0 4px;
+    border-bottom: 1px dashed #d4d4d4;
+    color: #000;
+    font-size: 16px;
+}
+/*===== nav =====*/
+nav {
+    float: left;
+    width: 240px;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #eee;
+}
+nav ul li a{
+    display: block;
+    color: #ae0001;
+    padding: 10px;
+    font-size: 15px;    
+}
+nav ul li a.current{
+    background-color: #ae0001;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color: #ae0001;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li a.level2{
+    padding-left: 25px;    
+}
+nav li a.level2:hover{
+    background-color: #eb696b;
+    color: #000;
+}
+nav li a.level3{
+    padding-left: 50px;
+}
+nav li a.current2{
+    color: #000;
+    background-color:#eb696b;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav h1{
+    font-size: 20px;
+    color: #ae0001;
+    margin: 25px 0 20px;
+}
+nav figure {
+    padding: 5px o;
+    float: right;
+}
+.clear {
+    clear: both;
+}  
+/*===== footer =====*/
+ footer {
+    clear: both;
+    padding: 30px 0 0;
+    border-top: 1px dashed #d4d4d4;
+}
+footer p {
+    text-align: center;
+     font-size: 18px;
+ }      
+
+
+
